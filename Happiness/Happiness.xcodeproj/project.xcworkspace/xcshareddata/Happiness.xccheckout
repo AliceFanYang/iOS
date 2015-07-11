@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B13AD023-E2F9-47DC-B08C-FD5B602DE56A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Happiness</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6721352D76C55D4CBFDCF9552556B4697D323DA2</key>
+		<string>github.com:AliceFanYang/iOS_learning.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Happiness/Happiness/Happiness.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6721352D76C55D4CBFDCF9552556B4697D323DA2</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:AliceFanYang/iOS_learning.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6721352D76C55D4CBFDCF9552556B4697D323DA2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6721352D76C55D4CBFDCF9552556B4697D323DA2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_learning</string>
+		</dict>
+	</array>
+</dict>
+</plist>
