@@ -19,6 +19,10 @@
                             <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="pwo-JR-NIB" customClass="FaceView" customModule="Happiness" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="M3A-y9-9vK" appends="YES" id="jms-ok-ceR"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -29,8 +33,16 @@
                             <constraint firstItem="pwo-JR-NIB" firstAttribute="top" secondItem="YOC-rU-iDg" secondAttribute="top" id="xTF-uq-TQK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="faceView" destination="pwo-JR-NIB" id="Ycb-Fw-ex8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lb6-t9-dIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="M3A-y9-9vK">
+                    <connections>
+                        <action selector="changeHappiness:" destination="K6B-od-nGL" id="4mc-i2-2fc"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="194" y="424"/>
         </scene>
